@@ -4,6 +4,6 @@ ra_col			'RA'
 dec_col			'DEC'
 survey			'vlass1.2'
 size_arcmin		3
-outdir			'output'
+outdir			''
 
 
