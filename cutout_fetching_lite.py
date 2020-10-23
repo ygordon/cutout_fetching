@@ -73,8 +73,8 @@ def grab_cutouts(
     ###convert imgsize to float
     imgsize_arcmin = float(imgsize_arcmin)
     output_dir = config['value'][np.where(config['parameter']=='outdir')[0][0]]
-    band = config['value'][np.where(config['parameter']=='band')[0][0]]
-    
+#    band = config['value'][np.where(config['parameter']=='band')[0][0]]
+
     if isinstance(target_file, str):
         targets = pd.read_csv(target_file)
     else:
