@@ -4,9 +4,9 @@ Fetch image cutouts from the legacy survey.
 Command line code for fetching fits format image cutouts from the DESI legacy surveys sky viewer (legacysurvey.org).
 Takes a csv file of targets containing position (in decimal degrees) and an object name, and a configurations file as inputs via command line arguments, run as:
 
-*python3 cutout_fetching_lite.py target_list.csv config.txt*
+*python3 cutout_fetching_lite.py target_list.csv*
 
-Downloads requested cutouts and places them in specified output folder.
+Downloads requested cutouts and places them in specified output folder. This assumes you have modified the file *config.txt* appropriately for your target list. Should you wish to use a differently named file as your config file then you can use the argument *--config=filename* when running the code.
 
 
 
